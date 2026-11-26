@@ -42,60 +42,38 @@ This project implements a comprehensive AWS cost optimization system that helps 
 
 ## **📸 Project Screenshots**
 
-### **🖥️ Dashboard Overview**
-Main dashboard showing all cost-optimization recommendations in one place.
+### **Screenshot 1**
+![Screenshot 1](<Screenshot 2026-11-26 174310.png>)
 
-![Dashboard Overview](<Screenshot 2026-11-26 174310.png>)
+### **Screenshot 2**
+![Screenshot 2](<Screenshot 2026-11-26 174329.png>)
 
-### **💡 EC2 Recommendations**
-Idle and underutilized EC2 instances detected by `EC2AnalyzerLambda`.
+### **Screenshot 3**
+![Screenshot 3](<Screenshot 2026-11-26 174338.png>)
 
-![EC2 Recommendations](<Screenshot 2026-11-26 174329.png>)
+### **Screenshot 4**
+![Screenshot 4](<Screenshot 2026-11-26 175251.png>)
 
-### **💾 EBS Recommendations**
-Unattached volumes and outdated storage types found by `EBSAnalyzerLambda`.
+### **Screenshot 5**
+![Screenshot 5](<Screenshot 2026-11-26 175305.png>)
 
-![EBS Recommendations](<Screenshot 2026-11-26 174338.png>)
+### **Screenshot 6**
+![Screenshot 6](<Screenshot 2026-11-26 175456.png>)
 
-### **⚙️ Update Status & Actions**
-Marking recommendations as resolved and triggering automated remediation (stop / terminate / delete).
+### **Screenshot 7**
+![Screenshot 7](<Screenshot 2026-11-26 175852.png>)
 
-![Update Status and Actions](<Screenshot 2026-11-26 175251.png>)
+### **Screenshot 8**
+![Screenshot 8](<Screenshot 2026-11-26 180035.png>)
 
-### **🌐 API Gateway Setup**
-REST API `ResourceAnalyzerAPI` with the `recommendations`, `update-status` and `action` resources.
+### **Screenshot 9**
+![Screenshot 9](<Screenshot 2026-11-26 180055.png>)
 
-![API Gateway](<Screenshot 2026-11-26 175305.png>)
+### **Screenshot 10**
+![Screenshot 10](<Screenshot 2026-11-26 180135.png>)
 
-### **📋 Filters & Resource Details**
-Filtering recommendations and viewing resource-level details.
-
-![Filters and Details](<Screenshot 2026-11-26 175456.png>)
-
-### **🧑‍💻 Lambda Function Code**
-Analyzer logic deployed in AWS Lambda (Python 3.10).
-
-![Lambda Code](<Screenshot 2026-11-26 175852.png>)
-
-### **🗄️ DynamoDB Table**
-Recommendations stored in the `CostOptimization` table (`ResourceId` + `Issue`).
-
-![DynamoDB Table](<Screenshot 2026-11-26 180035.png>)
-
-### **⏰ EventBridge Scheduler**
-Daily schedule rules that trigger the analyzer Lambdas.
-
-![EventBridge Rules](<Screenshot 2026-11-26 180055.png>)
-
-### **📊 CloudWatch Logs & Metrics**
-Execution logs and metrics used for analysis and monitoring.
-
-![CloudWatch](<Screenshot 2026-11-26 180135.png>)
-
-### **🔐 IAM Roles & Policies**
-`cost_optimization_role` and `apilambda-role` with their permissions.
-
-![IAM Roles](<Screenshot 2026-11-26 180159.png>)
+### **Screenshot 11**
+![Screenshot 11](<Screenshot 2026-11-26 180159.png>)
 
 ## **🚀 Quick Start Guide**
 
